@@ -1,0 +1,16 @@
+# Python/Django specific
+venv/
+*.pyc
+__pycache__/
+db.sqlite3
+*.log
+staticfiles/
+media/
+
+# React specific
+node_modules/
+build/
+.DS_Store
+
+# OS-specific
+*.swp
