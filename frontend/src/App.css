@@ -2,37 +2,75 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Scrapies;
+  src: url(./Assets/fonts/CaviarDreams.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: Scrapies-bold;
+  src: url(./Assets/fonts/CaviarDreams_Bold.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: Scrapies-boldItalic;
+  src: url(./Assets/fonts/CaviarDreams_BoldItalic.ttf);
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: Scrapies-italic;
+  src: url(./Assets/fonts/CaviarDreams_Italic.ttf);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: Scrapies-AA;
+  src: url(./Assets/fonts/Acoustic.otf);
+}
+
+body {
+  font-family: 'Scrapies';
+}
+
+.title-text {
+  font-family: 'Scrapies-AA', sans-serif;
+}
+
+.prim-color {
+  color: #F8BEA8 !important;
+}
+
+.secondary-color {
+  color: #3D3D6B !important;
+}
+
+.tertiary-color {
+  color: #E7D2E5 !important;
+}
+
+.quaternary-color {
+  color: #B4C3D3 !important;
+}
+
+.quinary-color {
+  color: #F4F2E4 !important;
+}
+
+.prim-bg {
+  background-color: #F8BEA8 !important;
+}
+
+.secondary-bg {
+  background-color: #3D3D6B !important;
+}
+
+.tertiary-bg {
+  background-color: #E7D2E5 !important;
+}
+
+.quaternary-bg {
+  background-color: #B4C3D3 !important;
+}
+
+.quinary-bg {
+  background-color: #F4F2E4 !important;
 }
